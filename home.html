@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Form</title>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+
+ <button id="myButton" class="float-left submit-button" >Add Grade</button>
+ <button id="myButton1" class="float-left submit-button" >View Grade</button>
+
+
+ <script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        window.open("addgrade.html");
+    };
+</script>
+
+<script type="text/javascript">
+    document.getElementById("myButton1").onclick = function () {
+        window.open("viewgrade.html");
+    };
+</script>
+
+  </body>
+</html>
